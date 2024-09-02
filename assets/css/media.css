@@ -5,29 +5,18 @@
 
 @media (max-width: 1200px) {
     .block{
-        flex-direction: column;
-        margin: 20px;
+        justify-content: center;
     }
-    .page-section{
+     .page-section{ 
         flex-direction: column;
+        justify-content: center;
     }
     
     .footer-block{
         width: 100%;
-        flex-direction: column;
-        text-align: center;   
-    }
-    
-    .footer-block img{
-        flex-direction: column;
         justify-content: center;
-    }
-    .footer-block p{
-        width: 100%;
-        flex-direction: column;
-        justify-content: center;
-    }
-    
+        text-align: center;
+    }   
 
 }
 
@@ -39,6 +28,9 @@
 
 
 @media (max-width: 767px) {
+    .header-block{
+        justify-content: center;
+    }
     .canvas{
         flex-direction: column;
         align-items: center;
@@ -51,18 +43,37 @@
 
 
 @media (max-width: 576px) {
+    .header-block{
+        justify-content: center;
+    }
+    .block{
+        justify-content: center;
+        text-align: center;
+        width: 100%;
+    }
+    .section-block{
+        width: 100%;
+        justify-content: center;
+    }
+   
     .effect h2, .effect p{
         font-size: 15px;
     }
-    .style button{
-        width: 60px;
-        height: 30px;
-    }
-    .footer-block img{
-        width: 250px;
-        height: 250px;
-        justify-content: center;
-     }
+   .inform img{
+    width: 100%;
+    
+}
 
-   
+.footer-block{
+    text-align: center;
+}
+}
+@media (max-width: 320px) {
+    .information img{
+        width: 300px;
+    }
+    .information p{
+        width: 200px;
+    }
+    
 }
