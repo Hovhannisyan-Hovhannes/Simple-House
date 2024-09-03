@@ -125,11 +125,12 @@ display: inline;
     font-size: 20px;
 }
 .information p{
-   width: 300px;
-   padding: 30px 0;
+   width: 400px;
+   padding: 10px 0;
    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
    font-size: 15px;
    color: gray;
+   line-height: 30px;
 }
 
 .information button{
@@ -151,3 +152,193 @@ display: inline;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 13px;
 }
+
+
+/* about.html */
+
+
+.section-block{
+   gap: 20px;
+}
+
+.page-block{
+    gap: 50px;  
+    margin-bottom: 30px;
+}
+
+.images-block img{
+    width: 200px;
+    min-height: 300px;   
+}
+
+.images-block h3{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 22px;
+    color: rgb(8, 96, 150);
+}
+.images-block h4{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 17px;
+    color: fuchsia;
+    padding: 10px 0;
+}
+.images-block p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    width: 250px;
+}
+.pictures{
+    width: 70%;
+    min-height: 500px;
+}
+
+.counsel{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.counsel img{
+    width: 80px;
+    height: 80px;
+}
+.counsel p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    width: 300px;
+    padding: 30px 20px;
+    line-height: 30px;
+}
+.push button{
+    width: 100px;
+    height: 50px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: large;
+    color:white;
+    background-color: rgb(6, 145, 145);
+    border-color: rgb(6, 154, 154);
+}
+.push button:hover{
+    background-color: rgb(4, 66, 66);
+}
+.stub button{
+    width: 100px;
+    height: 50px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: large;
+    color:white;
+    background-color: rgb(5, 122, 28);
+    border-color: rgb(5, 122, 28);
+}
+.stub button:hover{
+    background-color: rgb(8, 70, 40);
+}
+.knob button{
+    width: 100px;
+    height: 50px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: large;
+    color:white;
+    background-color: rgb(166, 41, 10);
+    border-color: rgb(166, 41, 10);
+}
+.knob button:hover{
+    background-color: rgb(99, 31, 10);
+}
+
+/* contact.html */
+
+.section-contact{
+    width: 50%;
+    gap: 20px;
+}
+
+.contact input{
+    width: 350px;
+    height: 50px;
+    padding: 10px;
+    margin: 20px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background-color: azure;
+}
+.contact input::placeholder{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    color: black;
+}
+.contact textarea{
+    width: 350px;
+    height: 100px;
+    padding: 10px;
+    margin: 20px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background-color: azure;
+}
+.contact textarea::placeholder{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    color: black;
+}
+
+.contact button{
+    margin: 20px;
+    width: 100px;
+    height: 50px;
+    text-align: center;
+    background-color: rgb(14, 136, 67);
+    color: white;
+    font-size: large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.contact button:hover{
+    background-color: rgb(6, 58, 20);
+}
+.contact h3{
+    margin-top: 20px;
+    padding: 20px 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 22px;
+    color: rgb(15, 88, 88);
+}
+.contact p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    line-height: 30px;
+}
+.contact i{
+    font-style: 24px;
+    color: rgb(22, 108, 108);
+    padding: 10px;
+}
+.cover-section iframe{
+    width: 70%;
+    min-height: 400px;
+}
+.list ol li{
+    margin: 20px;
+    border: 2px solid black;
+   
+    
+}
+.list ol li a{
+    text-decoration: none;
+    color: gray;
+    text-align: center;
+    
+}
+.list ol li a:hover{
+    color: rgb(9, 52, 52);
+}
+
+
+
+
+
+

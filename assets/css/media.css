@@ -16,7 +16,21 @@
         width: 100%;
         justify-content: center;
         text-align: center;
-    }   
+    }  
+    .information p{
+    width: 100%;
+}
+.page-block{
+    width: 100%;
+    justify-content: center;
+
+}
+.section-contact{
+    flex-direction: column;
+    text-align: center;
+}
+
+    
 
 }
 
@@ -39,6 +53,7 @@
     .footer-block{
         justify-content: center;
     }
+  
 }
 
 
@@ -59,21 +74,27 @@
     .effect h2, .effect p{
         font-size: 15px;
     }
+
    .inform img{
+    width: 100%; 
+}
+.page-block{
+flex-direction: column;
+text-align: center;
+} 
+.images-block p{
     width: 100%;
-    
+    padding: 0 80px;
 }
 
-.footer-block{
-    text-align: center;
-}
+
 }
 @media (max-width: 320px) {
     .information img{
         width: 300px;
     }
-    .information p{
-        width: 200px;
+    .simple{
+        text-align: center;
     }
     
 }
